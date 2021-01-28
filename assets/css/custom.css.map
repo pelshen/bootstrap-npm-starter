@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "custom.css",
+	"sources": [
+		"../../scss/custom.scss"
+	],
+	"sourcesContent": [
+		".card {\r\n    width: 100%;\r\n\r\n    .card-header {\r\n        color: green;\r\n    }\r\n\r\n    .card-body {\r\n        .card-subtitle {\r\n            font-style: italic;\r\n        }\r\n\r\n        .card-link {\r\n            text-decoration: underline;\r\n\r\n            &.main-link {\r\n                color: orange;\r\n            }\r\n        }\r\n    }\r\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,KAAK,AAAC,CACF,KAAK,CAAE,IAAI,CAmBd,AApBD,AAGI,KAHC,CAGD,YAAY,AAAC,CACT,KAAK,CAAE,KAAK,CACf,AALL,AAQQ,KARH,CAOD,UAAU,CACN,cAAc,AAAC,CACX,UAAU,CAAE,MAAM,CACrB,AAVT,AAYQ,KAZH,CAOD,UAAU,CAKN,UAAU,AAAC,CACP,eAAe,CAAE,SAAS,CAK7B,AAlBT,AAeY,KAfP,CAOD,UAAU,CAKN,UAAU,AAGL,UAAU,AAAC,CACR,KAAK,CAAE,MAAM,CAChB"
+}
