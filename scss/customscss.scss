@@ -1,8 +1,11 @@
+$alternate-color: orange;
+$width: (10 * 5) + 20;
+
 .card {
-    width: 100%;
+    width: $width + px;
 
     .card-header {
-        color: green;
+        color: $alternate-color;
     }
 
     .card-body {
@@ -14,7 +17,7 @@
             text-decoration: underline;
 
             &.main-link {
-                color: orange;
+                color: $alternate-color;
             }
         }
     }
